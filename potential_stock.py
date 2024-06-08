@@ -1,7 +1,6 @@
 import requests as re
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
-import os
 
 def fetch_url(url):
     response = re.get(url)
